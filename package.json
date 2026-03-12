@@ -1,0 +1,18 @@
+{
+  "name": "kyswa-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot WhatsApp Kyswa Travel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.0.0"
+  }
+}
